@@ -1,0 +1,41 @@
+ 1951  git init
+ 1952  git add README.md
+ 1953  git commit -m "first commit"
+ 1954  git branch -M main
+ 1955  git remote add origin https://github.com/tcmatias93/Checkpoint-Matias-Torres-16-8-23.git
+ 1956  git push -u origin main
+ 1957  echo "# Checkpoint-Matias-Torres-16-8-23" >> README.md
+ 1958  git init
+ 1959  git add README.md
+ 1960  git commit -m "first commit"
+ 1961  git branch -M main
+ 1962  git remote add origin https://github.com/tcmatias93/Checkpoint-Matias-Torres-16-8-23.git
+ 1963  git push -u origin main
+ 1964  mkdir CheckPoint-Torres-Matias-16-8-21
+ 1965  cd CheckPoint-Torres-Matias-16-8-21/
+ 1966  touch main.js index.html
+ 1967  cd ..
+ 1968  git add .
+ 1969  git commit -m 'Commit01 de Matias Torres'
+ 1970  git push
+ 1971  git checkout -b feature
+ 1972  mkdir Hardware Software SeguridadInformatica
+ 1973  cd Hardware/
+ 1974  touch resumen.txt
+ 1975  ls
+ 1976  cd ..
+ 1977  ls
+ 1978  cd Software/
+ 1979  touch resumen.txt
+ 1980  cd ../SeguridadInformatica/
+ 1981  touch resumen.txt
+ 1982  cd ..
+ 1983  git add .
+ 1984  git commit -m 'Commit02 de Matias Torres'
+ 1985  git push origin feature
+ 1986  git checkout main
+ 1987  cd CheckPoint-Torres-Matias-16-8-21/
+ 1988  mv index.html resumenSoftware.txt
+ 1989  mv main.js resumenHardware.txt
+ 1990  touch comandos.txt
+ 1991  history
